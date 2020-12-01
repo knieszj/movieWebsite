@@ -1,0 +1,17 @@
+.back-to-results-bar {
+    background: darkslategrey;
+    color: peru;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+#back-to-results {
+    padding: 10px;
+}
