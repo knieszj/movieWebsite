@@ -28,38 +28,62 @@
 }
 
 .main-viewing-area {
+    display: flex;
+    flex-direction: column;
     align-self: center;
-
+    /*background: rosybrown;*/
+    width: 100%;
 }
 
 .login-form {
-
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    /*background: aqua;*/
+    width: 40%;
+    font-family: sans-serif;
+    margin-top: 20%;
 }
 
 #login-Header-Text {
+    align-self: center;
+    font-size: x-large;
 
 }
 
 .label-and-input {
-
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 #email-label-text {
-
+    font-size: x-small;
 }
 
 #email-input {
-
+    border-radius: 5px;
+    height: 20px;
+    padding-left: 5px;
+    margin-top: 5px;
 }
 
 #password-label-text {
-
+    font-size: x-small;
 }
 
 #password-input {
+    border-radius: 5px;
+    height: 20px;
+    padding-left: 5px;
+    margin-top: 5px;
 
 }
 
 #form-login-button {
-
+    margin-top: 20px;
+    background: royalblue;
+    padding: 6px;
+    border-radius: 5px;
+    color: whitesmoke;
 }
