@@ -1,0 +1,65 @@
+.body {
+    background: whitesmoke;
+    margin: 0
+}
+
+.whole-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: grey;
+}
+
+.left-navigation-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right-navigation-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-viewing-area {
+    align-self: center;
+
+}
+
+.login-form {
+
+}
+
+#login-Header-Text {
+
+}
+
+.label-and-input {
+
+}
+
+#email-label-text {
+
+}
+
+#email-input {
+
+}
+
+#password-label-text {
+
+}
+
+#password-input {
+
+}
+
+#form-login-button {
+
+}
